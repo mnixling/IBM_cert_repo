@@ -90,7 +90,7 @@ def get_payload_chart(launch_site, payload_mass):
         y="class",
         color="Booster Version Category",
         hover_data=['Launch Site'],
-        title='Correlation Between Payload and Success for All Sites')
+        title=f'Correlation Between Payload and Success for {launch_site}')
     
     return fig
 
